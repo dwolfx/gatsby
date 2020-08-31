@@ -1,15 +1,12 @@
 import React from "react"
 
-import Menu from '../components/menu'
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
 
 const IndexPage = () => (
   <Layout>
-    <Menu/>
     <SEO title="Home" />
     <h1>Home Default</h1>
-    
   </Layout>
 )
 

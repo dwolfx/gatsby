@@ -1,9 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Menu from '../Menu'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-    <main>{children}</main>
+    <>
+      <Menu />
+      <main>{children}</main>
+    </>
   )
 }
 

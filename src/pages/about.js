@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
-import Menu from '../components/menu'
+import Layout from "../components/Layout/"
+import SEO from "../components/SEO"
 
 const AboutPage = () => (
-  <div>
-    <Menu/>
+  <Layout>
+    <SEO title="about"/>
     <h1>About Page</h1>
-  </div>
+  </Layout>
 )
 
 export default AboutPage
